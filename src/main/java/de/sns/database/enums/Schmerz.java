@@ -12,7 +12,7 @@ public enum Schmerz {
     private final int skala;
     private final String bezeichnung;
 
-    private Schmerz(int skala, String bezeichnung) {
+    Schmerz(int skala, String bezeichnung) {
         this.skala = skala;
         this.bezeichnung = bezeichnung;
     }
