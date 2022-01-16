@@ -58,7 +58,7 @@ public class ProjectXBackend {
         dataSourceConfig.setDriver("org.h2.Driver");
         dataSourceConfig.setUsername("px");
         dataSourceConfig.setPassword("px");
-        dataSourceConfig.setUrl(String.format("jdbc:h2:%s;MV_STORE=false", new File("src/test/resources").getAbsoluteFile()));
+        dataSourceConfig.setUrl(String.format("jdbc:h2:%s;MV_STORE=false", new File("src/test/resources/Database").getAbsoluteFile()));
 
         databaseConfig.setDataSourceConfig(dataSourceConfig);
 
