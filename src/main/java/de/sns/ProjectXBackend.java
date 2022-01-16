@@ -1,5 +1,6 @@
 package de.sns;
 
+import de.sns.database.entity.*;
 import io.ebean.Database;
 import io.ebean.DatabaseFactory;
 import io.ebean.config.DatabaseConfig;
@@ -11,7 +12,6 @@ import java.io.File;
 import java.sql.DriverManager;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 
 public class ProjectXBackend {
 
@@ -73,7 +73,13 @@ public class ProjectXBackend {
 
     private List<Class<?>> getDatabaseClasses() {
         return Arrays.asList(
-
+                Beschwerden.class,
+                Blutdruck.class,
+                Koerperbauanalyse.class,
+                KonstStatik.class,
+                Ziele.class,
+                Person.class,
+                Test.class
         );
     }
 }
