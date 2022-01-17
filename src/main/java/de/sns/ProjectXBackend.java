@@ -75,7 +75,7 @@ public class ProjectXBackend {
         return Arrays.asList(
                 Beschwerden.class,
                 Blutdruck.class,
-                Koerperbauanalyse.class,
+                Koerperaufbauanalyse.class,
                 KonstStatik.class,
                 Ziele.class,
                 Person.class,

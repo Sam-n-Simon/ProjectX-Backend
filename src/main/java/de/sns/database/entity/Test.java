@@ -74,8 +74,8 @@ public class Test {
     private Schmerz schmerzenAllgemein;
 
     @OneToOne (cascade = CascadeType.ALL)
-    @JoinColumn (name = "`koerperbauanalyse`", nullable = false)
-    private Ziele koerperbauanalyse;
+    @JoinColumn (name = "`koerperaufbauanalyse`", nullable = false)
+    private Koerperaufbauanalyse koerperaufbauanalyse;
 
     public Integer getId() {
         return id;
@@ -213,11 +213,11 @@ public class Test {
         this.schmerzenAllgemein = schmerzenAllgemein;
     }
 
-    public Ziele getKoerperbauanalyse() {
-        return koerperbauanalyse;
+    public Koerperaufbauanalyse getKoerperaufbauanalyse() {
+        return koerperaufbauanalyse;
     }
 
-    public void setKoerperbauanalyse(Ziele koerperbauanalyse) {
-        this.koerperbauanalyse = koerperbauanalyse;
+    public void setKoerperaufbauanalyse(Koerperaufbauanalyse koerperaufbauanalyse) {
+        this.koerperaufbauanalyse = koerperaufbauanalyse;
     }
 }

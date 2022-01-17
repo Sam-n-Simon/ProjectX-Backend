@@ -11,97 +11,97 @@ public class Beschwerden {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column (name = "akuteBeschwerden", nullable = false)
+    @Column (name = "´akuteBeschwerden´", nullable = false)
     private String akuteBeschwerden;
 
-    @Column (name = "hauptBeschwerden", nullable = false)
+    @Column (name = "´hauptBeschwerden´", nullable = false)
     private String hauptBeschwerden;
 
-    @Column (name = "kopfHals", nullable = false)
+    @Column (name = "´kopfHals´", nullable = false)
     private Boolean kopfHals;
 
-    @Column (name = "schulter", nullable = false)
+    @Column (name = "´schulter´", nullable = false)
     private Boolean schulter;
 
-    @Column (name = "handEllenbogenArm", nullable = false)
+    @Column (name = "´handEllenbogenArm´", nullable = false)
     private Boolean handEllenbogenArm;
 
-    @Column (name = "beckenHuefte", nullable = false)
+    @Column (name = "´beckenHuefte´", nullable = false)
     private Boolean beckenHuefte;
 
-    @Column (name = "oberschenkelKnie", nullable = false)
+    @Column (name = "´oberschenkelKnie´", nullable = false)
     private Boolean oberschenkelKnie;
 
-    @Column (name = "unterschenkelFuss", nullable = false)
+    @Column (name = "´unterschenkelFuss´", nullable = false)
     private Boolean unterschenkelFuss;
 
-    @Column (name = "halsWirbelSaeule", nullable = false)
+    @Column (name = "´halsWirbelSaeule´", nullable = false)
     private Boolean halsWirbelSaeule;
 
-    @Column (name = "brustWirbelSaeule", nullable = false)
+    @Column (name = "´brustWirbelSaeule´", nullable = false)
     private Boolean brustWirbelSaeule;
 
-    @Column (name = "lendenWirbelSaeule", nullable = false)
+    @Column (name = "´lendenWirbelSaeule´", nullable = false)
     private Boolean lendenWirbelSaeule;
 
-    @Column (name = "haltungsschwaeche", nullable = false)
+    @Column (name = "´haltungsschwaeche´", nullable = false)
     private Boolean haltungsschwaeche;
 
-    @Column (name = "wirbelverschleiss", nullable = false)
+    @Column (name = "´wirbelverschleiss´", nullable = false)
     private Boolean wirbelverschleiss;
 
-    @Column (name = "osteoporose", nullable = false)
+    @Column (name = "´osteoporose´", nullable = false)
     private Boolean osteoporose;
 
-    @Column (name = "wirbelverschiebung", nullable = false)
+    @Column (name = "´wirbelverschiebung´", nullable = false)
     private Boolean wirbelverschiebung;
 
-    @Column (name = "bandscheibenschaden", nullable = false)
+    @Column (name = "´bandscheibenschaden´", nullable = false)
     private Boolean bandscheibenschaden;
 
-    @Column (name = "skoliose", nullable = false)
+    @Column (name = "´skoliose´", nullable = false)
     private Boolean skoliose;
 
-    @Column (name = "baenderrisse", nullable = false)
+    @Column (name = "´baenderrisse´", nullable = false)
     private Boolean baenderrisse;
 
-    @Column (name = "knochenbrueche", nullable = false)
+    @Column (name = "´knochenbrueche´", nullable = false)
     private Boolean knochenbrueche;
 
-    @Column (name = "muskelMuskelfaserRisse", nullable = false)
+    @Column (name = "´muskelMuskelfaserRisse´", nullable = false)
     private Boolean muskelMuskelfaserRisse;
 
-    @Column (name = "kreislaufschwaeche", nullable = false)
+    @Column (name = "´kreislaufschwaeche´", nullable = false)
     private Boolean kreislaufschaeche;
 
-    @Column (name = "durchblutungsstoerungen", nullable = false)
+    @Column (name = "´durchblutungsstoerungen´", nullable = false)
     private Boolean durchblutungsstoerungen;
 
-    @Column (name = "krampfadernVenenschwaeche", nullable = false)
+    @Column (name = "´krampfadernVenenschwaeche´", nullable = false)
     private Boolean krampfadernVenenschwaeche;
 
-    @Column (name = "herzerkrankungen", nullable = false)
+    @Column (name = "´herzerkrankungen´", nullable = false)
     private Boolean herzerkrankungen;
 
-    @Column (name = "nicotinkonsum", nullable = false)
+    @Column (name = "´nicotinkonsum´", nullable = false)
     private Boolean nicotinkonsum;
 
-    @Column (name = "diabetes", nullable = false)
+    @Column (name = "´diabetes´", nullable = false)
     private Boolean diabetes;
 
-    @Column (name = "bluthochdruck", nullable = false)
+    @Column (name = "´bluthochdruck´", nullable = false)
     private Boolean bluthochdruck;
 
-    @Column (name = "cholesterin", nullable = false)
+    @Column (name = "´cholesterin´", nullable = false)
     private Boolean cholesterin;
 
-    @Column (name = "schilddrueseUeberUnterfunktion", nullable = false)
+    @Column (name = "´schilddrueseUeberUnterfunktion´", nullable = false)
     private Boolean schilddrueseUeberUnterfunktion;
 
-    @Column (name = "allergien", nullable = false)
+    @Column (name = "´allergien´", nullable = false)
     private Boolean allergien;
 
-    @Column (name = "medikamente", nullable = false)
+    @Column (name = "´medikamente´", nullable = false)
     private Boolean medikamente;
 
     public Integer getId() {
