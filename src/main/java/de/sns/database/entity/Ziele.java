@@ -12,43 +12,43 @@ public class Ziele {
     private Integer id;
 
 
-    @Column (name = "´kraft3´", nullable = false)
+    @Column (name = "`kraft3`", nullable = false)
     private String kraft3;
 
-    @Column (name = "´kraftA´", nullable = false)
+    @Column (name = "`kraftA`", nullable = false)
     private String kraftA;
 
-    @Column (name = "´ausdauer3´", nullable = false)
+    @Column (name = "`ausdauer3`", nullable = false)
     private String ausdauer3;
 
-    @Column (name = "´ausdauerA´", nullable = false)
+    @Column (name = "`ausdauerA`", nullable = false)
     private String ausdauerA;
 
-    @Column (name = "´beweglichkeit3´", nullable = false)
+    @Column (name = "`beweglichkeit3`", nullable = false)
     private String beweglichkeit3;
 
-    @Column (name = "´beweglichkeitA´", nullable = false)
+    @Column (name = "`beweglichkeitA`", nullable = false)
     private String beweglichkeitA;
 
-    @Column (name = "´gewicht3´", nullable = false)
+    @Column (name = "`gewicht3`", nullable = false)
     private String gewicht3;
 
-    @Column (name = "´gewichtA´", nullable = false)
+    @Column (name = "`gewichtA`", nullable = false)
     private String gewichtA;
 
-    @Column (name = "´schmerz3´", nullable = false)
+    @Column (name = "`schmerz3`", nullable = false)
     private String schmerz3;
 
-    @Column (name = "´schmerzA´", nullable = false)
+    @Column (name = "`schmerzA`", nullable = false)
     private String schmerzA;
 
-    @Column (name = "´balance3´", nullable = false)
+    @Column (name = "`balance3`", nullable = false)
     private String balance3;
 
-    @Column (name = "´balanceA´", nullable = false)
+    @Column (name = "`balanceA`", nullable = false)
     private String balanceA;
 
-    @Column (name = "´sonstiges´", nullable = false)
+    @Column (name = "`sonstiges`", nullable = false)
     private String sontiges;
 
 
