@@ -3,8 +3,8 @@ package de.sns.database.entity;
 import javax.persistence.*;
 
 @Entity
-@Table (name = "`Koerperbauanalyse`")
-public class Koerperbauanalyse {
+@Table (name = "`Koerperaufbauanalyse`")
+public class Koerperaufbauanalyse {
 
     @Id
     @Column(name = "id", nullable = false)
