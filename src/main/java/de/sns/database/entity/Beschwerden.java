@@ -18,91 +18,91 @@ public class Beschwerden {
     private String hauptBeschwerden;
 
     @Column (name = "kopfHals", nullable = false)
-    private boolean kopfHals;
+    private Boolean kopfHals;
 
     @Column (name = "schulter", nullable = false)
-    private boolean schulter;
+    private Boolean schulter;
 
     @Column (name = "handEllenbogenArm", nullable = false)
-    private boolean handEllenbogenArm;
+    private Boolean handEllenbogenArm;
 
     @Column (name = "beckenHuefte", nullable = false)
-    private boolean beckenHuefte;
+    private Boolean beckenHuefte;
 
     @Column (name = "oberschenkelKnie", nullable = false)
-    private boolean oberschenkelKnie;
+    private Boolean oberschenkelKnie;
 
     @Column (name = "unterschenkelFuss", nullable = false)
-    private boolean unterschenkelFuss;
+    private Boolean unterschenkelFuss;
 
     @Column (name = "halsWirbelSaeule", nullable = false)
-    private boolean halsWirbelSaeule;
+    private Boolean halsWirbelSaeule;
 
     @Column (name = "brustWirbelSaeule", nullable = false)
-    private boolean brustWirbelSaeule;
+    private Boolean brustWirbelSaeule;
 
     @Column (name = "lendenWirbelSaeule", nullable = false)
-    private boolean lendenWirbelSaeule;
+    private Boolean lendenWirbelSaeule;
 
     @Column (name = "haltungsschwaeche", nullable = false)
-    private boolean haltungsschwaeche;
+    private Boolean haltungsschwaeche;
 
     @Column (name = "wirbelverschleiss", nullable = false)
-    private boolean wirbelverschleiss;
+    private Boolean wirbelverschleiss;
 
     @Column (name = "osteoporose", nullable = false)
-    private boolean osteoporose;
+    private Boolean osteoporose;
 
     @Column (name = "wirbelverschiebung", nullable = false)
-    private boolean wirbelverschiebung;
+    private Boolean wirbelverschiebung;
 
     @Column (name = "bandscheibenschaden", nullable = false)
-    private boolean bandscheibenschaden;
+    private Boolean bandscheibenschaden;
 
     @Column (name = "skoliose", nullable = false)
-    private boolean skoliose;
+    private Boolean skoliose;
 
     @Column (name = "baenderrisse", nullable = false)
-    private boolean baenderrisse;
+    private Boolean baenderrisse;
 
     @Column (name = "knochenbrueche", nullable = false)
-    private boolean knochenbrueche;
+    private Boolean knochenbrueche;
 
     @Column (name = "muskelMuskelfaserRisse", nullable = false)
-    private boolean muskelMuskelfaserRisse;
+    private Boolean muskelMuskelfaserRisse;
 
     @Column (name = "kreislaufschwaeche", nullable = false)
-    private boolean kreislaufschaeche;
+    private Boolean kreislaufschaeche;
 
     @Column (name = "durchblutungsstoerungen", nullable = false)
-    private boolean durchblutungsstoerungen;
+    private Boolean durchblutungsstoerungen;
 
     @Column (name = "krampfadernVenenschwaeche", nullable = false)
-    private boolean krampfadernVenenschwaeche;
+    private Boolean krampfadernVenenschwaeche;
 
     @Column (name = "herzerkrankungen", nullable = false)
-    private boolean herzerkrankungen;
+    private Boolean herzerkrankungen;
 
     @Column (name = "nicotinkonsum", nullable = false)
-    private boolean nicotinkonsum;
+    private Boolean nicotinkonsum;
 
     @Column (name = "diabetes", nullable = false)
-    private boolean diabetes;
+    private Boolean diabetes;
 
     @Column (name = "bluthochdruck", nullable = false)
-    private boolean bluthochdruck;
+    private Boolean bluthochdruck;
 
     @Column (name = "cholesterin", nullable = false)
-    private boolean cholesterin;
+    private Boolean cholesterin;
 
     @Column (name = "schilddrueseUeberUnterfunktion", nullable = false)
-    private boolean schilddrueseUeberUnterfunktion;
+    private Boolean schilddrueseUeberUnterfunktion;
 
     @Column (name = "allergien", nullable = false)
-    private boolean allergien;
+    private Boolean allergien;
 
     @Column (name = "medikamente", nullable = false)
-    private boolean medikamente;
+    private Boolean medikamente;
 
     public Integer getId() {
         return id;
@@ -128,235 +128,235 @@ public class Beschwerden {
         this.hauptBeschwerden = hauptBeschwerden;
     }
 
-    public boolean isKopfHals() {
+    public Boolean isKopfHals() {
         return kopfHals;
     }
 
-    public void setKopfHals(boolean kopfHals) {
+    public void setKopfHals(Boolean kopfHals) {
         this.kopfHals = kopfHals;
     }
 
-    public boolean isSchulter() {
+    public Boolean isSchulter() {
         return schulter;
     }
 
-    public void setSchulter(boolean schulter) {
+    public void setSchulter(Boolean schulter) {
         this.schulter = schulter;
     }
 
-    public boolean isHandEllenbogenArm() {
+    public Boolean isHandEllenbogenArm() {
         return handEllenbogenArm;
     }
 
-    public void setHandEllenbogenArm(boolean handEllenbogenArm) {
+    public void setHandEllenbogenArm(Boolean handEllenbogenArm) {
         this.handEllenbogenArm = handEllenbogenArm;
     }
 
-    public boolean isBeckenHuefte() {
+    public Boolean isBeckenHuefte() {
         return beckenHuefte;
     }
 
-    public void setBeckenHuefte(boolean beckenHuefte) {
+    public void setBeckenHuefte(Boolean beckenHuefte) {
         this.beckenHuefte = beckenHuefte;
     }
 
-    public boolean isOberschenkelKnie() {
+    public Boolean isOberschenkelKnie() {
         return oberschenkelKnie;
     }
 
-    public void setOberschenkelKnie(boolean oberschenkelKnie) {
+    public void setOberschenkelKnie(Boolean oberschenkelKnie) {
         this.oberschenkelKnie = oberschenkelKnie;
     }
 
-    public boolean isUnterschenkelFuss() {
+    public Boolean isUnterschenkelFuss() {
         return unterschenkelFuss;
     }
 
-    public void setUnterschenkelFuss(boolean unterschenkelFuss) {
+    public void setUnterschenkelFuss(Boolean unterschenkelFuss) {
         this.unterschenkelFuss = unterschenkelFuss;
     }
 
-    public boolean isHalsWirbelSaeule() {
+    public Boolean isHalsWirbelSaeule() {
         return halsWirbelSaeule;
     }
 
-    public void setHalsWirbelSaeule(boolean halsWirbelSaeule) {
+    public void setHalsWirbelSaeule(Boolean halsWirbelSaeule) {
         this.halsWirbelSaeule = halsWirbelSaeule;
     }
 
-    public boolean isBrustWirbelSaeule() {
+    public Boolean isBrustWirbelSaeule() {
         return brustWirbelSaeule;
     }
 
-    public void setBrustWirbelSaeule(boolean brustWirbelSaeule) {
+    public void setBrustWirbelSaeule(Boolean brustWirbelSaeule) {
         this.brustWirbelSaeule = brustWirbelSaeule;
     }
 
-    public boolean isLendenWirbelSaeule() {
+    public Boolean isLendenWirbelSaeule() {
         return lendenWirbelSaeule;
     }
 
-    public void setLendenWirbelSaeule(boolean lendenWirbelSaeule) {
+    public void setLendenWirbelSaeule(Boolean lendenWirbelSaeule) {
         this.lendenWirbelSaeule = lendenWirbelSaeule;
     }
 
-    public boolean isHaltungsschwaeche() {
+    public Boolean isHaltungsschwaeche() {
         return haltungsschwaeche;
     }
 
-    public void setHaltungsschwaeche(boolean haltungsschwaeche) {
+    public void setHaltungsschwaeche(Boolean haltungsschwaeche) {
         this.haltungsschwaeche = haltungsschwaeche;
     }
 
-    public boolean isWirbelverschleiss() {
+    public Boolean isWirbelverschleiss() {
         return wirbelverschleiss;
     }
 
-    public void setWirbelverschleiss(boolean wirbelverschleiss) {
+    public void setWirbelverschleiss(Boolean wirbelverschleiss) {
         this.wirbelverschleiss = wirbelverschleiss;
     }
 
-    public boolean isOsteoporose() {
+    public Boolean isOsteoporose() {
         return osteoporose;
     }
 
-    public void setOsteoporose(boolean osteoporose) {
+    public void setOsteoporose(Boolean osteoporose) {
         this.osteoporose = osteoporose;
     }
 
-    public boolean isWirbelverschiebung() {
+    public Boolean isWirbelverschiebung() {
         return wirbelverschiebung;
     }
 
-    public void setWirbelverschiebung(boolean wirbelverschiebung) {
+    public void setWirbelverschiebung(Boolean wirbelverschiebung) {
         this.wirbelverschiebung = wirbelverschiebung;
     }
 
-    public boolean isBandscheibenschaden() {
+    public Boolean isBandscheibenschaden() {
         return bandscheibenschaden;
     }
 
-    public void setBandscheibenschaden(boolean bandscheibenschaden) {
+    public void setBandscheibenschaden(Boolean bandscheibenschaden) {
         this.bandscheibenschaden = bandscheibenschaden;
     }
 
-    public boolean isSkoliose() {
+    public Boolean isSkoliose() {
         return skoliose;
     }
 
-    public void setSkoliose(boolean skoliose) {
+    public void setSkoliose(Boolean skoliose) {
         this.skoliose = skoliose;
     }
 
-    public boolean isBaenderrisse() {
+    public Boolean isBaenderrisse() {
         return baenderrisse;
     }
 
-    public void setBaenderrisse(boolean baenderrisse) {
+    public void setBaenderrisse(Boolean baenderrisse) {
         this.baenderrisse = baenderrisse;
     }
 
-    public boolean isKnochenbrueche() {
+    public Boolean isKnochenbrueche() {
         return knochenbrueche;
     }
 
-    public void setKnochenbrueche(boolean knochenbrueche) {
+    public void setKnochenbrueche(Boolean knochenbrueche) {
         this.knochenbrueche = knochenbrueche;
     }
 
-    public boolean isMuskelMuskelfaserRisse() {
+    public Boolean isMuskelMuskelfaserRisse() {
         return muskelMuskelfaserRisse;
     }
 
-    public void setMuskelMuskelfaserRisse(boolean muskelMuskelfaserRisse) {
+    public void setMuskelMuskelfaserRisse(Boolean muskelMuskelfaserRisse) {
         this.muskelMuskelfaserRisse = muskelMuskelfaserRisse;
     }
 
-    public boolean isKreislaufschaeche() {
+    public Boolean isKreislaufschaeche() {
         return kreislaufschaeche;
     }
 
-    public void setKreislaufschaeche(boolean kreislaufschaeche) {
+    public void setKreislaufschaeche(Boolean kreislaufschaeche) {
         this.kreislaufschaeche = kreislaufschaeche;
     }
 
-    public boolean isDurchblutungsstoerungen() {
+    public Boolean isDurchblutungsstoerungen() {
         return durchblutungsstoerungen;
     }
 
-    public void setDurchblutungsstoerungen(boolean durchblutungsstoerungen) {
+    public void setDurchblutungsstoerungen(Boolean durchblutungsstoerungen) {
         this.durchblutungsstoerungen = durchblutungsstoerungen;
     }
 
-    public boolean isKrampfadernVenenschwaeche() {
+    public Boolean isKrampfadernVenenschwaeche() {
         return krampfadernVenenschwaeche;
     }
 
-    public void setKrampfadernVenenschwaeche(boolean krampfadernVenenschwaeche) {
+    public void setKrampfadernVenenschwaeche(Boolean krampfadernVenenschwaeche) {
         this.krampfadernVenenschwaeche = krampfadernVenenschwaeche;
     }
 
-    public boolean isHerzerkrankungen() {
+    public Boolean isHerzerkrankungen() {
         return herzerkrankungen;
     }
 
-    public void setHerzerkrankungen(boolean herzerkrankungen) {
+    public void setHerzerkrankungen(Boolean herzerkrankungen) {
         this.herzerkrankungen = herzerkrankungen;
     }
 
-    public boolean isNicotinkonsum() {
+    public Boolean isNicotinkonsum() {
         return nicotinkonsum;
     }
 
-    public void setNicotinkonsum(boolean nicotinkonsum) {
+    public void setNicotinkonsum(Boolean nicotinkonsum) {
         this.nicotinkonsum = nicotinkonsum;
     }
 
-    public boolean isDiabetes() {
+    public Boolean isDiabetes() {
         return diabetes;
     }
 
-    public void setDiabetes(boolean diabetes) {
+    public void setDiabetes(Boolean diabetes) {
         this.diabetes = diabetes;
     }
 
-    public boolean isBluthochdruck() {
+    public Boolean isBluthochdruck() {
         return bluthochdruck;
     }
 
-    public void setBluthochdruck(boolean bluthochdruck) {
+    public void setBluthochdruck(Boolean bluthochdruck) {
         this.bluthochdruck = bluthochdruck;
     }
 
-    public boolean isCholesterin() {
+    public Boolean isCholesterin() {
         return cholesterin;
     }
 
-    public void setCholesterin(boolean cholesterin) {
+    public void setCholesterin(Boolean cholesterin) {
         this.cholesterin = cholesterin;
     }
 
-    public boolean isSchilddrueseUeberUnterfunktion() {
+    public Boolean isSchilddrueseUeberUnterfunktion() {
         return schilddrueseUeberUnterfunktion;
     }
 
-    public void setSchilddrueseUeberUnterfunktion(boolean schilddrueseUeberUnterfunktion) {
+    public void setSchilddrueseUeberUnterfunktion(Boolean schilddrueseUeberUnterfunktion) {
         this.schilddrueseUeberUnterfunktion = schilddrueseUeberUnterfunktion;
     }
 
-    public boolean isAllergien() {
+    public Boolean isAllergien() {
         return allergien;
     }
 
-    public void setAllergien(boolean allergien) {
+    public void setAllergien(Boolean allergien) {
         this.allergien = allergien;
     }
 
-    public boolean isMedikamente() {
+    public Boolean isMedikamente() {
         return medikamente;
     }
 
-    public void setMedikamente(boolean medikamente) {
+    public void setMedikamente(Boolean medikamente) {
         this.medikamente = medikamente;
     }
 }
