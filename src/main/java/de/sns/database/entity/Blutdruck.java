@@ -1,5 +1,7 @@
 package de.sns.database.entity;
 
+import org.jetbrains.annotations.NotNull;
+
 import javax.persistence.*;
 
 @Entity
@@ -20,35 +22,39 @@ public class Blutdruck {
     @Column (name = "`puls`", nullable = false)
     private Integer puls;
 
+    @NotNull
     public Integer getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(@NotNull Integer id) {
         this.id = id;
     }
 
+    @NotNull
     public Integer getSystole() {
         return systole;
     }
 
-    public void setSystole(Integer systole) {
+    public void setSystole(@NotNull Integer systole) {
         this.systole = systole;
     }
 
+    @NotNull
     public Integer getDiastole() {
         return diastole;
     }
 
-    public void setDiastole(Integer diastole) {
+    public void setDiastole(@NotNull Integer diastole) {
         this.diastole = diastole;
     }
 
+    @NotNull
     public Integer getPuls() {
         return puls;
     }
 
-    public void setPuls(Integer puls) {
+    public void setPuls(@NotNull Integer puls) {
         this.puls = puls;
     }
 }

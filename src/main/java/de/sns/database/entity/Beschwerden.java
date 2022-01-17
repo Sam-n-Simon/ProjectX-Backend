@@ -1,5 +1,7 @@
 package de.sns.database.entity;
 
+import org.jetbrains.annotations.NotNull;
+
 import javax.persistence.*;
 
 @Entity
@@ -104,259 +106,291 @@ public class Beschwerden {
     @Column (name = "´medikamente´", nullable = false)
     private Boolean medikamente;
 
+    @NotNull
     public Integer getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(@NotNull Integer id) {
         this.id = id;
     }
 
+    @NotNull
     public String getAkuteBeschwerden() {
         return akuteBeschwerden;
     }
 
-    public void setAkuteBeschwerden(String akuteBeschwerden) {
+    public void setAkuteBeschwerden(@NotNull String akuteBeschwerden) {
         this.akuteBeschwerden = akuteBeschwerden;
     }
 
+    @NotNull
     public String getHauptBeschwerden() {
         return hauptBeschwerden;
     }
 
-    public void setHauptBeschwerden(String hauptBeschwerden) {
+    public void setHauptBeschwerden(@NotNull String hauptBeschwerden) {
         this.hauptBeschwerden = hauptBeschwerden;
     }
 
+    @NotNull
     public Boolean isKopfHals() {
         return kopfHals;
     }
 
-    public void setKopfHals(Boolean kopfHals) {
+    public void setKopfHals(@NotNull Boolean kopfHals) {
         this.kopfHals = kopfHals;
     }
 
+    @NotNull
     public Boolean isSchulter() {
         return schulter;
     }
 
-    public void setSchulter(Boolean schulter) {
+    public void setSchulter(@NotNull Boolean schulter) {
         this.schulter = schulter;
     }
 
+    @NotNull
     public Boolean isHandEllenbogenArm() {
         return handEllenbogenArm;
     }
 
-    public void setHandEllenbogenArm(Boolean handEllenbogenArm) {
+    public void setHandEllenbogenArm(@NotNull Boolean handEllenbogenArm) {
         this.handEllenbogenArm = handEllenbogenArm;
     }
 
+    @NotNull
     public Boolean isBeckenHuefte() {
         return beckenHuefte;
     }
 
-    public void setBeckenHuefte(Boolean beckenHuefte) {
+    public void setBeckenHuefte(@NotNull Boolean beckenHuefte) {
         this.beckenHuefte = beckenHuefte;
     }
 
+    @NotNull
     public Boolean isOberschenkelKnie() {
         return oberschenkelKnie;
     }
 
-    public void setOberschenkelKnie(Boolean oberschenkelKnie) {
+    public void setOberschenkelKnie(@NotNull Boolean oberschenkelKnie) {
         this.oberschenkelKnie = oberschenkelKnie;
     }
 
+    @NotNull
     public Boolean isUnterschenkelFuss() {
         return unterschenkelFuss;
     }
 
-    public void setUnterschenkelFuss(Boolean unterschenkelFuss) {
+    public void setUnterschenkelFuss(@NotNull Boolean unterschenkelFuss) {
         this.unterschenkelFuss = unterschenkelFuss;
     }
 
+    @NotNull
     public Boolean isHalsWirbelSaeule() {
         return halsWirbelSaeule;
     }
 
-    public void setHalsWirbelSaeule(Boolean halsWirbelSaeule) {
+    public void setHalsWirbelSaeule(@NotNull Boolean halsWirbelSaeule) {
         this.halsWirbelSaeule = halsWirbelSaeule;
     }
 
+    @NotNull
     public Boolean isBrustWirbelSaeule() {
         return brustWirbelSaeule;
     }
 
-    public void setBrustWirbelSaeule(Boolean brustWirbelSaeule) {
+    public void setBrustWirbelSaeule(@NotNull Boolean brustWirbelSaeule) {
         this.brustWirbelSaeule = brustWirbelSaeule;
     }
 
+    @NotNull
     public Boolean isLendenWirbelSaeule() {
         return lendenWirbelSaeule;
     }
 
-    public void setLendenWirbelSaeule(Boolean lendenWirbelSaeule) {
+    public void setLendenWirbelSaeule(@NotNull Boolean lendenWirbelSaeule) {
         this.lendenWirbelSaeule = lendenWirbelSaeule;
     }
 
+    @NotNull
     public Boolean isHaltungsschwaeche() {
         return haltungsschwaeche;
     }
 
-    public void setHaltungsschwaeche(Boolean haltungsschwaeche) {
+    public void setHaltungsschwaeche(@NotNull Boolean haltungsschwaeche) {
         this.haltungsschwaeche = haltungsschwaeche;
     }
 
+    @NotNull
     public Boolean isWirbelverschleiss() {
         return wirbelverschleiss;
     }
 
-    public void setWirbelverschleiss(Boolean wirbelverschleiss) {
+    public void setWirbelverschleiss(@NotNull Boolean wirbelverschleiss) {
         this.wirbelverschleiss = wirbelverschleiss;
     }
 
+    @NotNull
     public Boolean isOsteoporose() {
         return osteoporose;
     }
 
-    public void setOsteoporose(Boolean osteoporose) {
+    public void setOsteoporose(@NotNull Boolean osteoporose) {
         this.osteoporose = osteoporose;
     }
 
+    @NotNull
     public Boolean isWirbelverschiebung() {
         return wirbelverschiebung;
     }
 
-    public void setWirbelverschiebung(Boolean wirbelverschiebung) {
+    public void setWirbelverschiebung(@NotNull Boolean wirbelverschiebung) {
         this.wirbelverschiebung = wirbelverschiebung;
     }
 
+    @NotNull
     public Boolean isBandscheibenschaden() {
         return bandscheibenschaden;
     }
 
-    public void setBandscheibenschaden(Boolean bandscheibenschaden) {
+    public void setBandscheibenschaden(@NotNull Boolean bandscheibenschaden) {
         this.bandscheibenschaden = bandscheibenschaden;
     }
 
+    @NotNull
     public Boolean isSkoliose() {
         return skoliose;
     }
 
-    public void setSkoliose(Boolean skoliose) {
+    public void setSkoliose(@NotNull Boolean skoliose) {
         this.skoliose = skoliose;
     }
 
+    @NotNull
     public Boolean isBaenderrisse() {
         return baenderrisse;
     }
 
-    public void setBaenderrisse(Boolean baenderrisse) {
+    public void setBaenderrisse(@NotNull Boolean baenderrisse) {
         this.baenderrisse = baenderrisse;
     }
 
+    @NotNull
     public Boolean isKnochenbrueche() {
         return knochenbrueche;
     }
 
-    public void setKnochenbrueche(Boolean knochenbrueche) {
+    public void setKnochenbrueche(@NotNull Boolean knochenbrueche) {
         this.knochenbrueche = knochenbrueche;
     }
 
+    @NotNull
     public Boolean isMuskelMuskelfaserRisse() {
         return muskelMuskelfaserRisse;
     }
 
-    public void setMuskelMuskelfaserRisse(Boolean muskelMuskelfaserRisse) {
+    public void setMuskelMuskelfaserRisse(@NotNull Boolean muskelMuskelfaserRisse) {
         this.muskelMuskelfaserRisse = muskelMuskelfaserRisse;
     }
 
+    @NotNull
     public Boolean isKreislaufschaeche() {
         return kreislaufschaeche;
     }
 
-    public void setKreislaufschaeche(Boolean kreislaufschaeche) {
+    public void setKreislaufschaeche(@NotNull Boolean kreislaufschaeche) {
         this.kreislaufschaeche = kreislaufschaeche;
     }
 
+    @NotNull
     public Boolean isDurchblutungsstoerungen() {
         return durchblutungsstoerungen;
     }
 
-    public void setDurchblutungsstoerungen(Boolean durchblutungsstoerungen) {
+    public void setDurchblutungsstoerungen(@NotNull Boolean durchblutungsstoerungen) {
         this.durchblutungsstoerungen = durchblutungsstoerungen;
     }
 
+    @NotNull
     public Boolean isKrampfadernVenenschwaeche() {
         return krampfadernVenenschwaeche;
     }
 
-    public void setKrampfadernVenenschwaeche(Boolean krampfadernVenenschwaeche) {
+    public void setKrampfadernVenenschwaeche(@NotNull Boolean krampfadernVenenschwaeche) {
         this.krampfadernVenenschwaeche = krampfadernVenenschwaeche;
     }
 
+    @NotNull
     public Boolean isHerzerkrankungen() {
         return herzerkrankungen;
     }
 
-    public void setHerzerkrankungen(Boolean herzerkrankungen) {
+    public void setHerzerkrankungen(@NotNull Boolean herzerkrankungen) {
         this.herzerkrankungen = herzerkrankungen;
     }
 
+    @NotNull
     public Boolean isNicotinkonsum() {
         return nicotinkonsum;
     }
 
-    public void setNicotinkonsum(Boolean nicotinkonsum) {
+    public void setNicotinkonsum(@NotNull Boolean nicotinkonsum) {
         this.nicotinkonsum = nicotinkonsum;
     }
 
+    @NotNull
     public Boolean isDiabetes() {
         return diabetes;
     }
 
-    public void setDiabetes(Boolean diabetes) {
+    public void setDiabetes(@NotNull Boolean diabetes) {
         this.diabetes = diabetes;
     }
 
+    @NotNull
     public Boolean isBluthochdruck() {
         return bluthochdruck;
     }
 
-    public void setBluthochdruck(Boolean bluthochdruck) {
+    public void setBluthochdruck(@NotNull Boolean bluthochdruck) {
         this.bluthochdruck = bluthochdruck;
     }
 
+    @NotNull
     public Boolean isCholesterin() {
         return cholesterin;
     }
 
-    public void setCholesterin(Boolean cholesterin) {
+    public void setCholesterin(@NotNull Boolean cholesterin) {
         this.cholesterin = cholesterin;
     }
 
+    @NotNull
     public Boolean isSchilddrueseUeberUnterfunktion() {
         return schilddrueseUeberUnterfunktion;
     }
 
-    public void setSchilddrueseUeberUnterfunktion(Boolean schilddrueseUeberUnterfunktion) {
+    public void setSchilddrueseUeberUnterfunktion(@NotNull Boolean schilddrueseUeberUnterfunktion) {
         this.schilddrueseUeberUnterfunktion = schilddrueseUeberUnterfunktion;
     }
 
+    @NotNull
     public Boolean isAllergien() {
         return allergien;
     }
 
-    public void setAllergien(Boolean allergien) {
+    public void setAllergien(@NotNull Boolean allergien) {
         this.allergien = allergien;
     }
 
+    @NotNull
     public Boolean isMedikamente() {
         return medikamente;
     }
 
-    public void setMedikamente(Boolean medikamente) {
+    public void setMedikamente(@NotNull Boolean medikamente) {
         this.medikamente = medikamente;
     }
 }
