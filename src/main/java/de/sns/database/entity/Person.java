@@ -1,6 +1,7 @@
 package de.sns.database.entity;
 
 import de.sns.database.enums.Haltung;
+import org.jetbrains.annotations.NotNull;
 
 import javax.persistence.*;
 import java.util.List;
@@ -37,67 +38,75 @@ public class Person {
     @OneToMany (mappedBy = "person", cascade = CascadeType.ALL)
     private List<Test> tests;
 
+    @NotNull
     public Integer getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(@NotNull Integer id) {
         this.id = id;
     }
 
+    @NotNull
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(@NotNull String name) {
         this.name = name;
     }
 
+    @NotNull
     public String getVorname() {
         return vorname;
     }
 
-    public void setVorname(String vorname) {
+    public void setVorname(@NotNull String vorname) {
         this.vorname = vorname;
     }
 
+    @NotNull
     public String getGeburtsdatum() {
         return geburtsdatum;
     }
 
-    public void setGeburtsdatum(String geburtsdatum) {
+    public void setGeburtsdatum(@NotNull String geburtsdatum) {
         this.geburtsdatum = geburtsdatum;
     }
 
+    @NotNull
     public String getBeruf() {
         return beruf;
     }
 
-    public void setBeruf(String beruf) {
+    public void setBeruf(@NotNull String beruf) {
         this.beruf = beruf;
     }
 
+    @NotNull
     public Haltung getVorwiegendeHaltung() {
         return vorwiegendeHaltung;
     }
 
-    public void setVorwiegendeHaltung(Haltung vorwiegendeHaltung) {
+    public void setVorwiegendeHaltung(@NotNull Haltung vorwiegendeHaltung) {
         this.vorwiegendeHaltung = vorwiegendeHaltung;
     }
 
+    @NotNull
     public String getSportlicheAktivitaeten() {
         return sportlicheAktivitaeten;
     }
 
-    public void setSportlicheAktivitaeten(String sportlicheAktivitaeten) {
+    public void setSportlicheAktivitaeten(@NotNull String sportlicheAktivitaeten) {
         this.sportlicheAktivitaeten = sportlicheAktivitaeten;
     }
 
+    @NotNull
     public List<Test> getTests() {
         return tests;
     }
 
-    public void setTests(List<Test> tests) {
+    public void setTests(@NotNull List<Test> tests) {
         this.tests = tests;
     }
 }
